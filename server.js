@@ -29,5 +29,5 @@ server.get('/api/users/:id', (req, res) => {
       if(res.status(404) === 404){
         res.status(404).json({error: 'The user with the specified ID does not exist.'});
       }
-    })
+      })
 });
